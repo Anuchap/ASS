@@ -1,0 +1,47 @@
+﻿{
+	"Discipline": {
+		"Search": "B",
+		"Display": "C",
+		"Online VDO": "G",
+		"YouTube": "K",
+		"Facebook": "Q",
+		"Instagram": "W",
+		"Twitter": "Z",
+		"Line": "AA",
+		"Instant Messaging": "AB",
+		"Social": "AC",
+		"Creative": "AD",
+		"Others": "AH"
+	},
+	"Display": {
+		"Direct": "C",
+		"AdNetwork": "D",
+		"Programmatic": "E"
+	},
+	"OnlineVDO": {
+		"Direct": "G",
+		"AdNetwork": "H",
+		"Programmatic": "I"
+	},
+	"YouTube": {
+		"Display Desktop": "K",
+		"Display Mobile": "L",
+		"Video Desktop": "N",
+		"Video Mobile": "O"
+	},
+	"Facebook": {
+		"Desktop Dis": "Q",
+		"Mobile Dis": "R",
+		"Desktop VDO": "T",
+		"Mobile VDO": "U"
+	},
+	"Instagram": {
+		"Display": "W",
+		"Video": "X"
+	},
+	"Creative": {
+		"Video": "AD",
+		"Banner": "AE",
+		"Platform": "AF"
+	}
+}
