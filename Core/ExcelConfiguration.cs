@@ -11,7 +11,7 @@ namespace Core
 
         public Dictionary<string, string> Display { get; set; }
 
-        public Dictionary<string, string> OnlineVdo { get; set; }
+        public Dictionary<string, string> Vdo { get; set; }
 
         public Dictionary<string, string> YouTube { get; set; }
 

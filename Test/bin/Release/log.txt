@@ -1,0 +1,3 @@
+27/6/2016 17:09: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25

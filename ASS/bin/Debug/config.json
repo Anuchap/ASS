@@ -18,16 +18,16 @@
 		"AdNetwork": "D",
 		"Programmatic": "E"
 	},
-	"OnlineVDO": {
+	"VDO": {
 		"Direct": "G",
 		"AdNetwork": "H",
 		"Programmatic": "I"
 	},
 	"YouTube": {
-		"Display Desktop": "K",
-		"Display Mobile": "L",
-		"Video Desktop": "N",
-		"Video Mobile": "O"
+		"Desktop Dis": "K",
+		"Mobile Dis": "L",
+		"Desktop VDO": "N",
+		"Mobile VDO": "O"
 	},
 	"Facebook": {
 		"Desktop Dis": "Q",

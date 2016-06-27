@@ -15,7 +15,7 @@ namespace Core
         {
             _cmd = cmd;
             _config = config;
-            _step = 5;
+            _step = 6;
         }
 
         public void Read(string file)
@@ -28,7 +28,7 @@ namespace Core
                 }
                 var wss = pck.Workbook.Worksheets.ToArray();
                 var agencyId = new FileInfo(file).Name.Split('_')[0];
-                for (var i = 2; i < 4; i++)
+                for (var i = 1; i < 3; i++)
                 {
                     var ws = wss[i];
                     for (var j = 3; j <= 278; j += _step)
@@ -53,16 +53,16 @@ namespace Core
                                         break;
 
                                     case "Online VDO":
-                                        subType = _config.OnlineVdo;
+                                        subType = _config.Vdo;
                                         break;
 
                                     case "YouTube":
-                                        row = 4;
+                                        row = 5;
                                         subType = _config.YouTube;
                                         break;
 
                                     case "Facebook":
-                                        row = 4;
+                                        row = 5;
                                         subType = _config.Facebook;
                                         break;
 

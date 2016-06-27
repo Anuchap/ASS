@@ -1,0 +1,93 @@
+27/6/2016 16:51: MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'agency_id' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Core.DbCommander.InsertDiscipline(String agencyId, String name, String categoryName, Int32 sheet, Nullable`1 value) in d:\@Jobs\AdSurvey2\Code\ASS\Core\DbCommander.cs:line 19
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 43
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 16:53: MySql.Data.MySqlClient.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`adsurvey`.`discipline`, CONSTRAINT `fk_discipline` FOREIGN KEY (`agency_id`) REFERENCES `agency` (`id`))
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Core.DbCommander.InsertDiscipline(String agencyId, String name, String categoryName, Int32 sheet, Nullable`1 value) in d:\@Jobs\AdSurvey2\Code\ASS\Core\DbCommander.cs:line 19
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 43
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:02: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 80
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:05: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:09: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:11: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:11: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:12: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:17: System.IO.IOException: The process cannot access the file 'D:\Desktop\kT7Y_1.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 25
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:17: System.IO.IOException: The process cannot access the file 'D:\Desktop\kT7Y_1.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 25
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:18: System.IO.IOException: The process cannot access the file 'D:\Desktop\kT7Y_1.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 25
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:18: System.IO.IOException: The process cannot access the file 'D:\Desktop\kT7Y_1.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 25
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:18: System.IO.IOException: The process cannot access the file 'D:\Desktop\kT7Y_1.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 25
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:19: System.IO.IOException: The process cannot access the file 'D:\Desktop\kT7Y_1.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 25
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:20: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 17:32: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25
+27/6/2016 19:19: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.ExcelReader.Read(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\ExcelReader.cs:line 36
+   at Core.Main.Process(String file) in d:\@Jobs\AdSurvey2\Code\ASS\Core\Main.cs:line 25

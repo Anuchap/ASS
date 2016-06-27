@@ -19,7 +19,7 @@ namespace ASS
         {
             _watcher = new FileSystemWatcher
             {
-                Path = args[0], //@"D:\Jobs\AdSurvey2\completed_excel_p1",
+                Path = @"C:\inetpub\wwwroot\aspnet_client\ad2016\completed",
                 NotifyFilter = NotifyFilters.CreationTime | NotifyFilters.FileName,
                 Filter = "*.xlsx",
                 EnableRaisingEvents = true,

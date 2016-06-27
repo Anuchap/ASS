@@ -1,0 +1,15 @@
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\config.json
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\ASS.exe.config
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\ASS.exe
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\ASS.pdb
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\Core.dll
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\Newtonsoft.Json.dll
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\EPPlus.dll
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\Core.pdb
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\Newtonsoft.Json.xml
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\bin\Release\EPPlus.xml
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\obj\Release\ASS.csprojResolveAssemblyReference.cache
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\obj\Release\ASS.ProjectInstaller.resources
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\obj\Release\ASS.csproj.GenerateResource.Cache
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\obj\Release\ASS.exe
+D:\@Jobs\AdSurvey2\Code\ASS\ASS\obj\Release\ASS.pdb

@@ -13,8 +13,8 @@ namespace Core
         }
         public void Process(string file)
         {
-            //const string conStr = @"server=27.254.41.2;user id=anuchap;persistsecurityinfo=True;database=adsurvey;password=morningM00n;";
-            const string conStr = @"server=localhost;user id=root;persistsecurityinfo=True;database=adsurvey;password=morningM00n;";
+            const string conStr = @"server=localhost;user id=tns;persistsecurityinfo=True;database=adsurvey2;password=ad2016;";
+            //const string conStr = @"server=localhost;user id=root;persistsecurityinfo=True;database=adsurvey;password=morningM00n;";
             using (var con = new MySqlConnection(conStr))
             {
                 con.Open();

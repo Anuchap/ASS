@@ -7,3 +7,12 @@ D:\Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\Newtonsoft.Json.dll
 D:\Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\EPPlus.xml
 D:\Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\Newtonsoft.Json.xml
 D:\Jobs\AdSurvey2\Code\ASS\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\Core.dll
+D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\Core.pdb
+D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\EPPlus.dll
+D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\Newtonsoft.Json.dll
+D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\EPPlus.xml
+D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Debug\Newtonsoft.Json.xml
+D:\@Jobs\AdSurvey2\Code\ASS\Core\obj\Debug\Core.dll
+D:\@Jobs\AdSurvey2\Code\ASS\Core\obj\Debug\Core.pdb
+D:\@Jobs\AdSurvey2\Code\ASS\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
