@@ -31,7 +31,7 @@ namespace Core
                 for (var i = 1; i < 3; i++)
                 {
                     var ws = wss[i];
-                    for (var j = 3; j <= 278; j += _step)
+                    for (var j = 3; j <= 333; j += _step)
                     {
                         var categoryName = ((string)ws.Cells["A" + j].Value).Split('(')[0].Trim();
                         foreach (var d in _config.Discipline)
@@ -52,7 +52,7 @@ namespace Core
                                         subType = _config.Display;
                                         break;
 
-                                    case "Online VDO":
+                                    case "VDO":
                                         subType = _config.Vdo;
                                         break;
 

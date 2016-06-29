@@ -6,3 +6,4 @@ D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Release\EPPlus.xml
 D:\@Jobs\AdSurvey2\Code\ASS\Core\bin\Release\Newtonsoft.Json.xml
 D:\@Jobs\AdSurvey2\Code\ASS\Core\obj\Release\Core.dll
 D:\@Jobs\AdSurvey2\Code\ASS\Core\obj\Release\Core.pdb
+D:\@Jobs\AdSurvey2\Code\ASS\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
